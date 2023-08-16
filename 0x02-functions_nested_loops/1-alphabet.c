@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - Check description.
- * Description: It prints the word _putchar, followed by a new line.
+ * print_alphabet - Check description.
+ * Description: It prints the alphabet, followed by a new line.
  * Return: 0.
  */
 void print_alphabet(void)
