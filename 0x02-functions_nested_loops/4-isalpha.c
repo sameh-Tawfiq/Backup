@@ -17,11 +17,11 @@ int _isalpha(int c)
 		}
 	}
 	for (alpha = 'A'; alpha <= 'Z'; alpha++)
-        {
-                if (c == alpha)
-                {
-                        return (1);
-                }
-        }
+	{
+		if (c == alpha)
+		{
+			return (1);
+		}
+	}
 	return (0);
 }
