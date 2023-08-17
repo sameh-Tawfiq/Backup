@@ -11,6 +11,7 @@ void print_triangle(int size)
 	if (size == 0)
 	{
 		_putchar('\n');
+		_putchar('\n');
 	}
 	else if (size == 1)
 	{
@@ -31,6 +32,5 @@ void print_triangle(int size)
 				_putchar('#');
 			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
