@@ -16,9 +16,9 @@ void print_rev(char *s)
 		index++;
 		s++;
 	}
-	while (*(str+index) >= 0)
+	while (index >= 0)
 	{
-		_putchar(*(str+index));
+		_putchar(*(str + index));
 		index--;
 	}
 	_putchar('\n');
