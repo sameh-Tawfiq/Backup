@@ -11,9 +11,10 @@ void reverse_array(int *a, int n)
 {
 	int *first = a;
 	int *last = (a + n) - 1;
-	if ( n % 2 == 0)
+
+	if (n % 2 == 0)
 	{
-		while( first < last )
+		while(first < last)
 		{
 			int temp;
 
@@ -23,11 +24,10 @@ void reverse_array(int *a, int n)
 			first++;
 			last--;
 		}
-
 	}
 	else
 	{
-		while ( first < last )
+		while (first < last)
 		{
 			int temp;
 
